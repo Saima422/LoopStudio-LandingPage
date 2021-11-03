@@ -1,9 +1,10 @@
 import './App.css';
 import Banner from './components/Banner';
 import CreatorSection from './components/CreatorSection';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import LeaderSection from './components/LeaderSection';
-import creatorData from "./data/data.json";
+import Data from "./data/data.json";
 
 function App() {
 	return (
@@ -11,7 +12,8 @@ function App() {
 			<Header />
 			<Banner />
 			<LeaderSection />
-			<CreatorSection data={creatorData.creations} />
+      <CreatorSection data={Data.creations} />
+      <Footer data={Data.footerLinks} />
 		</div>
 	);
 }

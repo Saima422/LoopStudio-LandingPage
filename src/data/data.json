@@ -32,5 +32,6 @@
             "title": "Make it Fisheye",
             "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-fisheye_fskcuj.jpg"
         }
-    ]
+    ],
+    "footerLinks": ["about", "careers", "events", "products", "support"]
 }
