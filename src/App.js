@@ -12,8 +12,8 @@ function App() {
 			<Header />
 			<Banner />
 			<LeaderSection />
-      <CreatorSection data={Data.creations} />
-      <Footer data={Data.footerLinks} />
+      		<CreatorSection data={Data.creations} />
+      		<Footer data={Data.footerLinks} />
 		</div>
 	);
 }
