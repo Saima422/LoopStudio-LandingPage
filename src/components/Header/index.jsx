@@ -7,12 +7,7 @@ function Header({data}) {
 
 	return (
 		<div
-			className='
-				absolute
-				w-full
-				flex
-				justify-between
-				z-10'>
+			className='absolute w-full flex justify-between z-10'>
 			<img
 				src={logo}
 				alt='LoopStudio-Logo'
