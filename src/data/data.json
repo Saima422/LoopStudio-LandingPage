@@ -2,36 +2,45 @@
     "creations": [
         {
             "title": "Deep Earth",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-deep-earth_qhdsgw.jpg"
+            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-deep-earth_qhdsgw.jpg",
+            "desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368370/image-deep-earth_majxrd.jpg"
         },
         {
-            "title": "Night Arcade",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-night-arcade_irgerk.jpg"
-        },
+			"title": "Night Arcade",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-night-arcade_irgerk.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368369/image-night-arcade_ibzixl.jpg"
+		},
         {
-            "title": "Soccer Team VR",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-soccer-team_ryhcz5.jpg"
-        },
+			"title": "Soccer Team VR",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-soccer-team_ryhcz5.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368371/image-soccer-team_emcl8q.jpg"
+		},
         {
-            "title": "The Grid",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-grid_xx1jse.jpg"
-        },
+			"title": "The Grid",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-grid_xx1jse.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368370/image-grid_l8eez1.jpg"
+		},
         {
-            "title": "From Up Above VR",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966858/image-from-above_uobk9v.jpg"
-        },
+			"title": "From Up Above VR",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966858/image-from-above_uobk9v.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368369/image-from-above_ephjda.jpg"
+		},
         {
-            "title": "Pocket Borealis",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-pocket-borealis_cd1nxd.jpg"
-        },
+			"title": "Pocket Borealis",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-pocket-borealis_cd1nxd.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368370/image-pocket-borealis_lalblz.jpg"
+		},
         {
-            "title": "The Curiosity",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966856/image-curiosity_evquge.jpg"
-        },
+			"title": "The Curiosity",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966856/image-curiosity_evquge.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368370/image-curiosity_xjrwl6.jpg"
+		},
         {
-            "title": "Make it Fisheye",
-            "imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-fisheye_fskcuj.jpg"
-        }
+			"title": "Make it Fisheye",
+			"imageUrl": "https://res.cloudinary.com/samm/image/upload/v1635966857/image-fisheye_fskcuj.jpg",
+			"desktopUrl": "https://res.cloudinary.com/samm/image/upload/v1636368370/image-fisheye_u110dx.jpg"
+		}
     ],
-    "footerLinks": ["about", "careers", "events", "products", "support"]
+    "footerLinks": ["about", "careers", "events", "products", "support"],
+	"headerLinks": ["about", "careers", "events", "products", "support"]
 }

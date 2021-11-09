@@ -9,7 +9,7 @@ import Data from "./data/data.json";
 function App() {
 	return (
 		<div className='App'>
-			<Header />
+			<Header data={Data.headerLinks}/>
 			<Banner />
 			<LeaderSection />
       		<CreatorSection data={Data.creations} />
