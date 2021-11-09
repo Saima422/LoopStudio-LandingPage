@@ -9,8 +9,8 @@ function LeaderSection() {
 					alt='leaderImage'
 					className='w-72 my-6 mx-auto sm:my-1 md:w-96 md:-ml-20'
 				/>
-				<div className='md:w-80 md:bg-white md:-ml-28 md:h-44 md:mr-10 md:mt-24  lm:h-48'>
-					<h1 className='uppercase py-4 text-3xl sm:text-2xl md:py-2 lm:py-5'>
+				<div className='md:w-80 md:bg-white md:-ml-28 md:h-44 md:mr-10 md:mt-24 lm:h-48'>
+					<h1 className='uppercase py-4 text-3xl sm:text-2xl md:py-2 lm:py-4 xl:text-3xl'>
 						The leader in interactive VR
 					</h1>
 					<p className='w-64 sm:w-96 text-center mx-auto text-gray-500 text-sm px-2 md:w-72 md:text-xs lm:w-80'>

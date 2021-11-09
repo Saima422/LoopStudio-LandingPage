@@ -7,7 +7,7 @@ import instagram from "../../assets/icon-instagram.svg";
 function Footer({ data }) {
 	return (
 		<div className='bg-black text-gray-100 py-10 sm:py-5 sm:flex sm:justify-around'>
-			<div className='sm:w-64 mid:w-80'>
+			<div className='sm:w-64 mid:w-80 xl:w-96 xl:-ml-24 2xl:-ml-60'>
 				<img
 					src={footerLogo}
 					alt='footerLogo'
@@ -24,14 +24,14 @@ function Footer({ data }) {
 					))}
 				</div>
 			</div>
-			<div className='sm:w-40 mid:w-48'>
-				<div className='flex justify-around w-32 sm:w-28 mx-auto my-6 sm:mb-5'>
+			<div className='sm:w-40 mid:w-48 xl:-mr-24 2xl:-mr-52'>
+				<div className='flex justify-around w-32 sm:w-28 mx-auto my-6 sm:mb-5 xl:mr-0'>
 					<img src={facebook} alt='facebook' />
 					<img src={twitter} alt='twitter' />
 					<img src={pinterest} alt='pinterest' />
 					<img src={instagram} alt='instagram' />
 				</div>
-				<p className='text-xs text-gray-300 mb-6 sm:mb-1 tracking-wider sm:w-32 sm:mx-auto mid:w-48'>
+				<p className='text-xs text-gray-300 mb-6 sm:mb-1 tracking-wider sm:w-32 sm:mx-auto mid:w-48 xl:text-right xl:w-32 xl:mr-0'>
 					&copy; 2021 Loopstudios. All rights reserved.
 				</p>
 			</div>
