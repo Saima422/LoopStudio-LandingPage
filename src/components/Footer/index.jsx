@@ -31,7 +31,7 @@ function Footer({ data }) {
 					<img src={pinterest} alt='pinterest' />
 					<img src={instagram} alt='instagram' />
 				</div>
-				<p className='text-xs text-gray-300 mb-6 sm:mb-1 tracking-wider sm:w-32 sm:mx-auto mid:w-48 xl:text-right xl:w-32 xl:mr-0'>
+				<p className='footer-p'>
 					&copy; 2021 Loopstudios. All rights reserved.
 				</p>
 			</div>
