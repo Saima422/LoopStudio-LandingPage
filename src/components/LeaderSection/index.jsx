@@ -2,7 +2,7 @@ import leaderImage from '../../assets/mobile/image-interactive.jpg';
 
 function LeaderSection() {
     return (
-		<div className='w-full'>
+		<div className='LeaderSection w-full'>
 			<div className='py-16 sm:py-10 md:flex mx-auto md:w-96'>
 				<img
 					src={leaderImage}

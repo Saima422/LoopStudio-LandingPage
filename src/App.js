@@ -9,11 +9,11 @@ import Data from "./data/data.json";
 function App() {
 	return (
 		<div className='App'>
-			<Header data={Data.headerLinks}/>
+			<Header data={Data.headerLinks} />
 			<Banner />
 			<LeaderSection />
-      		<CreatorSection data={Data.creations} />
-      		<Footer data={Data.footerLinks} />
+			<CreatorSection data={Data.creations} />
+			<Footer data={Data.footerLinks} />
 		</div>
 	);
 }
