@@ -7,7 +7,7 @@ function Header({data}) {
 
 	return (
 		<div
-			className='absolute w-full flex justify-between z-10'>
+			className='Header absolute w-full flex justify-between z-10'>
 			<img
 				src={logo}
 				alt='LoopStudio-Logo'
@@ -21,13 +21,15 @@ function Header({data}) {
 				/>
 			) : (
 				<ul className='flex my-5 lm:mr-10 lg:mr-16 2xl:mr-32'>
-					{data.map((item, index) => (
-						<li
-							key={index}
-							className='mx-3 text-gray-100 capitalize 2xl:mx-5'>
-							{item}
-						</li>
-					))}
+						{
+							data && data.map((item, index) => (
+							<li
+								key={index}
+								className='mx-3 text-gray-100 capitalize 2xl:mx-5'>
+								{item}
+							</li>
+							))
+						}
 				</ul>
 			)}
 		</div>

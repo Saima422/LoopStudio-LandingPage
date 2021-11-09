@@ -6,15 +6,13 @@ function Banner() {
 	const { width } = useWindowDimensions();
 
     return (
-		<div className='relative'>
+		<div className='Banner relative'>
 			<img
 				src={width < 640 ? bannerImage : desktopBannerImage}
 				alt='banner'
 				className='w-full 2xl:h-98'
 			/>
-			<h1 className='banner-h1'>
-				Immersive experiences that deliver
-			</h1>
+			<h1 className='banner-h1'>Immersive experiences that deliver</h1>
 		</div>
 	);
 }
